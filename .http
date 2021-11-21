@@ -1,0 +1,37 @@
+
+GET http://127.0.0.1:3333/admin/api/commodity
+
+###
+GET http://127.0.0.1:3333/admin/api/commodity/619a2d6dad027c5180d6b68c
+
+###
+POST  http://127.0.0.1:3333/admin/api/commodity
+Content-Type: application/json
+
+{
+    "pid": "1",
+    "name": "商品名称-3",
+    "image": "1.png",
+    "describe": "这里是商品描述"
+}
+
+###
+PUT  http://127.0.0.1:3333/admin/api/posts/619a094c12cd1413a0a34662
+Content-Type: application/json
+
+{
+    "userName": "tom",
+    "email": "12@qq.com"
+}
+###
+DELETE  http://127.0.0.1:3333/admin/api/posts/619a0bb87b44cd482c58efc8
+
+
+###
+
+GET http://127.0.0.1:3333/admin/api/commodity/grid
+
+###
+GET http://127.0.0.1:3333/admin/api/commodity/form
+###
+

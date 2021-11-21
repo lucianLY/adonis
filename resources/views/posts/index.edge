@@ -1,0 +1,9 @@
+<h1>Post 列表</h1>
+
+<ul>
+    @each( post in posts)
+    <li>
+        <a href="/posts/{{post._id}}">user: {{post.userName}}</a>
+    </li>
+    @endeach
+</ul>
